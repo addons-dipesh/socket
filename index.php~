@@ -15,6 +15,7 @@ CURLOPT_POSTFIELDS => array('name'=>'Nimesh Koshti','fields'=>'IT COMMUNICATION'
 
 $response = curl_exec($curl);
 $response_info = curl_getinfo($curl);
+echo '<pre>';
 print_r($response_info);
 //echo curl_errno($curl);
 //echo curl_error($curl);
