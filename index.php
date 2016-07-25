@@ -1,6 +1,6 @@
 <?php
 
-ini_set("display_errors", 0);
+ini_set("display_errors", 1);
 
 $curl =  curl_init();
 //curl_setopt($curl,CURLOPT_URL,'http://192.168.1.28/wsdl/test.php');
