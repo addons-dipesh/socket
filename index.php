@@ -6,7 +6,7 @@ $curl =  curl_init();
 //curl_setopt($curl,CURLOPT_URL,'http://192.168.1.28/wsdl/test.php');
 
 curl_setopt_array($curl,array(
-CURLOPT_RETURNTRANSFER => 1,
+CURLOPT_RETURNTRANSFER => 0,
 CURLOPT_URL => 'http://192.168.1.28/wsdl/test.php',
 CURLOPT_USERAGENT => 'TEST REQUEST OF CURL',
 CURLOPT_POST => 1,
